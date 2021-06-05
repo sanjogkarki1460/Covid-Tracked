@@ -84,7 +84,7 @@ const Covid = () => {
             </div>
             {loader === true ?
                 <div className='loader-image'>
-                    <img src={process.env.PUBLIC_URL + 'loader.gif'} alt='loader'/>
+                    <img src={process.env.PUBLIC_URL + '/loader.gif'} alt='loader'/>
                 </div>
                 :
                 <CovidData
