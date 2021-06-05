@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import CovidData from './CovidData'
+import loadergif  from './loader.gif'
 
 const Covid = () => {
     const [countries, SetCountries] = useState(['']);
@@ -84,7 +85,7 @@ const Covid = () => {
             </div>
             {loader === true ?
                 <div className='loader-image'>
-                    <img src={process.env.PUBLIC_URL + 'loader.gif'} alt='loader'/>
+                    <img src={loadergif} alt='loader'/>
                 </div>
                 :
                 <CovidData
