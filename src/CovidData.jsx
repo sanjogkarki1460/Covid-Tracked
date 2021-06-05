@@ -1,6 +1,3 @@
-import React from 'react'
-import Covid from './Covid'
-
 const CovidData=(props)=>{
     return(
         <>

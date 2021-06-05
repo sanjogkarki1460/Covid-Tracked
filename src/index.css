@@ -9,7 +9,7 @@
   line-height: 100px;
   background-color: #f5ba13;
   display: flex;
-  justify-content: start;
+  flex: start;
   align-items: center;
   padding-left: 50px;
   color: white;
@@ -158,4 +158,13 @@ footer{
 
 Button{
   width: 100px;
+}
+
+.loader-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  text-align: center;
+  width: 40%;
 }
